@@ -1,6 +1,6 @@
 # Fitbit Raw Data Processor & Visualizer
 
-Process and visualize your Fitbit fitness tracker data with ease. This repository contains a Jupyter notebook that helps you break down your raw Fitbit data into consolidated health and fitness metrics and provides visually appealing charts and graphs showcasing your personal trends over time.
+Process and visualize your Fitbit fitness tracker data with ease. This repository contains a Jupyter notebook that helps you break down your raw Fitbit data into consolidated health and fitness metrics and provides visually appealing charts and graphs showcasing your personal health & fitness trends over time.
 
 ## Table of Contents
 
@@ -38,23 +38,25 @@ Process and visualize your Fitbit fitness tracker data with ease. This repositor
    - Navigate to the directory where you want to clone the repository.
    - Run the following commands:
 
-   bash` git clone https://github.com/schbz/fitbitdata.git
-     cd schbz/fitbitdata`
+```bash
+git clone https://github.com/schbz/FitbitEDA.git
+cd schbz/FitbitEDA
+```
 
-2. **Open the Notebook**:
+1. **Open the Notebook**:
 
    - in root directory of the project, launch Jupyter Notebook:
 
      bash`jupyter notebook`
 
-3. **Configure Your Data Input**:
+2. **Configure Your Data Input**:
 
    - Open the provided notebook from the Jupyter interface.
    - Locate the cell with a line similar to: `user_folder = 'SkyS'`
    - Replace `SkyS` with the name of the folder you placed in the `data` directory.
 
-4. **Run the Notebook**:
-   - Execute all cells in the notebook.
+3. **Run the Notebook**:
+   - Run all cells in the notebook.
    - Once processed, you'll find several consolidated `.csv` files inside the `output` directory.
    - Additionally, the notebook will display various charts and graphs detailing your health and fitness trends.
 

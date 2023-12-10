@@ -52,8 +52,8 @@ cd schbz/FitbitEDA
 2. **Configure Your Data Input**:
 
    - Open the provided notebook from the Jupyter interface.
-   - Locate the cell with a line similar to: `user_folder = 'SkyS'`
-   - Replace `SkyS` with the name of the folder you placed in the `data` directory.
+   - Locate the cell with a line similar to: `user_folder = '23_Dec'`
+   - Replace `23_dec` with the name of the folder you placed in the `data` directory.
 
 3. **Run the Notebook**:
    - Run all cells in the notebook.
